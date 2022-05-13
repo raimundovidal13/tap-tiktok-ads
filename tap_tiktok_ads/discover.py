@@ -10,7 +10,7 @@ def discover():
         mdata = field_metadata[stream_name]
         
         
-        if stream_name in ['adgroups', 'campaigns', 'ads']:
+        if stream_name in ['adgroups', 'campaigns', 'ads', 'advertisers']:
             mdata[0]["metadata"]["selected"] = True
      
         streams.append(
